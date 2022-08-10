@@ -1,0 +1,99 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.overviewBtn {
+    background-color: #f7f7f7;
+    color: #353535;
+    width: 100%;
+    height: 28vh;
+    font-size: 4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+.introDiv {
+
+    margin: auto;
+    width: 50%;
+    padding: 1.5vh;
+
+}
+
+.overviewText {
+
+    margin: auto;
+    width: 50%;
+    padding: 1.5vh;
+    color: #353535;
+
+}
+
+.chapterDiv {
+    background-color: #353535;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid black;
+    color:#f7f7f7;
+}
+
+.chapterTitle {
+    font-size: 2em;
+}
+
+.chapterText {
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 10px;
+    color: #353535;
+    border-left: 3px solid #353535;
+    display: none;
+    box-shadow: 4px 10px #888888;
+}
+
+.questionDiv {
+
+    margin: auto;
+    width: 50%;
+    padding: 1.5vh;
+
+}
+
+.questionTitle {
+    background-color: #353535;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid black;
+    color:#f7f7f7;
+    font-size: 2em;
+}
+
+.questionText {
+    width: 100%;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 10px;
+    font-size: 2em;
+    border-left: 3px solid #353535;
+    
+    box-shadow: 4px 10px #888888;
+
+}
+
+.answerDiv {
+    width: 100%;
+    text-align: center;
+    
+    padding: 10px;
+    
+    
+}
+
+#answerForm {
+
+    width: 50%;
+
+}
