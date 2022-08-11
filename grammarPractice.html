@@ -12,7 +12,7 @@
             Translate the following
         </div>
 
-        <div class="questionText">
+        <div id="questionTextId" class="questionText">
             Sentence here
         </div>
 
@@ -20,31 +20,15 @@
 
     <div class="questionDiv">
         <div class="answerDiv">
-            Answer: <input id="answerForm"><button>Submit</button>
+            Answer: <input id="answerForm"><button onclick="answerQuestion()">Submit</button>
         </div>
         <div class="answerDiv">
-            Sumisu wa Bengoshi desu ka? Iie, bengoshi dewa arimasen. Sumisu-san wa gakusei desu.
-            <table>
-                <tr>
-                  <th>Company</th>
-                  <th>Contact</th>
-                  <th>Country</th>
-                </tr>
-                <tr>
-                  <td>Alfreds Futterkiste</td>
-                  <td>Maria Anders</td>
-                  <td>Germany</td>
-                </tr>
-                <tr>
-                  <td>Centro comercial Moctezuma</td>
-                  <td>Francisco Chang</td>
-                  <td>Mexico</td>
-                </tr>
-              </table>
+            <span id="answersBelowMe"></span>
         </div>
     </div>
 
-    <script src="main.js"></script>
+    <script src="questionsAndAnswers.js"></script>
+    <script src="grammarPractice.js"></script>
 </body>
 
 
